@@ -1,0 +1,24 @@
+{
+  "name": "team-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "lint": "eslint src",
+    "coverage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "jest": "^27.0.6",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
